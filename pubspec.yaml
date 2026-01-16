@@ -36,7 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   image_picker: ^1.2.1
   video_player: ^2.10.1
-
+  flutter_svg: ^2.2.3
+  file_picker: ^10.3.8
+  open_filex: ^4.4.0
+  syncfusion_flutter_pdfviewer: ^32.1.23
+  open_file: ^3.5.11
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -63,6 +67,7 @@ flutter:
   assets:
     - assets/animals/
     - assets/laptop/
+    - assets/svgs/
     - assets/
     
 
