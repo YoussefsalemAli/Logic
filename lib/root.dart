@@ -3,6 +3,7 @@ import 'package:logic/screens/one/image_selection.dart';
 import 'package:logic/screens/one/multi_selection.dart';
 import 'package:logic/screens/one/single_selection.dart';
 import 'package:logic/screens/one/toggle_selection.dart';
+import 'package:logic/screens/three/search_feature.dart';
 import 'package:logic/screens/two/upload_file.dart';
 import 'package:logic/screens/two/upload_image.dart';
 import 'package:logic/screens/two/upload_multi_images.dart';
@@ -26,6 +27,7 @@ class _RootState extends State<Root> {
     UploadMultiImages(),
     UploadVideo(),
     UploadFile(),
+    SearchFeature(),
   ];
   int selectedIndex = 0;
   @override
